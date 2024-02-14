@@ -36,7 +36,7 @@ server.listen(port, hostname, () => {
 
 function showForm(p_posts, res) {
     var data = ejs.render(template, {
-        title: 'helo ejs',
+        title: 'hello ejs',
         posts: p_posts
     });
     res.setHeader('Content-Type', 'text/html');
